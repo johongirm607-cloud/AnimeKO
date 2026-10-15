@@ -16,6 +16,14 @@
       "service": "animeko"
     }
   ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "animeko",
+      "database_id": "4cf78e22-b44f-4f4f-b220-be644fa3c4fd",
+      "migrations_dir": "migrations"
+    }
+  ],
   "observability": {
     "enabled": true
   }
