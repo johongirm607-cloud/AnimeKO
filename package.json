@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "eslint",
     "deploy:cloudflare": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "d1:migrate:local": "wrangler d1 migrations apply animeko --local",
+    "d1:migrate:remote": "wrangler d1 migrations apply animeko --remote"
   },
   "dependencies": {
     "@prisma/client": "^7.10.0",
